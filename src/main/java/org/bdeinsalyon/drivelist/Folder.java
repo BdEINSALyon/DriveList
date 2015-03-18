@@ -24,9 +24,12 @@ public class Folder {
             do {
                 FileList execute = list.execute();
                 for (File child : execute.getItems()) {
+                    //if you look for twins folders
                     if (child.getParents().size() > 1 && !isTwin(child)) {
                         twins.add(child);
                     }
+                    //if you look for files > n 
+                    //cf drive.API
                 }
                 list.setPageToken(execute.getNextPageToken());
             } while (list.getPageToken() != null &&
