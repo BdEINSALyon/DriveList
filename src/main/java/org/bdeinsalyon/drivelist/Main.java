@@ -28,8 +28,8 @@ import java.util.Scanner;
  */
 public class Main {
 
-    private static String CLIENT_ID = "***REMOVED***";
-    private static String CLIENT_SECRET = "***REMOVED***";
+    private static String CLIENT_ID = "**DELETED**";
+    private static String CLIENT_SECRET = "**DELETED**";
 
     private static String REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob";
 
